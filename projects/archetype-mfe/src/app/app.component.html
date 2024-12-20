@@ -1,0 +1,13 @@
+<h2>hello I am MFE 1</h2>
+<button (click)="notify.emit(5)">Notify Shell</button>
+<p>Info received from Shell:</p>
+<ul>
+  <li>Normal input: {{normalinput}}</li>
+  <li>Signal input: {{signalinput()}}</li>
+
+</ul>
+@defer(on interaction){
+  <app-prueba-lazy />
+}@placeholder{
+  <div>placehoolder, click me</div>
+}
